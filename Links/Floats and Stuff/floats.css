@@ -1,0 +1,138 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-size: x-large;
+  background-color: white;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: xx-large;
+  letter-spacing: 0.5cm;
+  font-weight: bolder;
+  background: #FFA500;
+  font-family: 'Dancing Script', cursive;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+#left {
+  background-color: #30948d;
+  color: white;
+  width: 33%;
+  float: left;
+}
+#left a:hover {
+  background-color: royalblue;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+#middle {
+  background-color: #9e1212;
+  color: white;
+  width: 33%;
+  float: left;
+  position: relative;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #9e1212;
+  color: white;
+  padding: 0px;
+  font-size: x-large;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: plum;
+  
+}
+
+#right {
+  background-color: #30948D;
+  color: white;
+  width: 33%;
+  float: left;
+}
+/* End of dropdown styling*/
+
+#full {
+  background-color: #394549;
+  clear: both;
+  padding-bottom: 100px;
+}
+
+#division {
+  background-color: #6ea3da;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+aside { 
+  background-color: #a6b747;
+  padding: 70px;
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+aside a:hover {
+  background-image: url("LamaFire.png");
+  background-attachment: fixed;
+  background-size: 5cm;
+  padding: 70px;
+  background-position: center;
+  display: flex;
+  margin: 0px;
+}
+
+footer {
+  background-color: #ffa500;
+  font-family: 'Dancing Script', cursive;
+  padding: 20px;
+}
