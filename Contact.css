@@ -2,6 +2,13 @@ body {
     background-color: teal;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
 #form {
     
     margin: 30px;
@@ -12,9 +19,16 @@ body {
   }
 
 #header {
-    color: black;
+    color: teal;
     font-weight: bold;
     margin-bottom: 20px;
+    background-color: white;
+}
+
+.header {
+    color: teal;
+    font-weight: bold;
+    background-color: white;
 }
 
 
@@ -22,7 +36,13 @@ body {
     font-size: x-large;
     background-color: white;
     color: black;
- 
-
 }
 
+
+
+/*.portfolio.style {
+    margin: 30px;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: white;
+}*/
