@@ -1,13 +1,7 @@
 body {
     background-color: teal;
+    color: teal
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
 
 #form {
     
@@ -19,18 +13,14 @@ body {
   }
 
 #header {
-    color: teal;
     font-weight: bold;
     margin-bottom: 20px;
-    background-color: white;
+   
 }
 
 .header {
-    color: teal;
     font-weight: bold;
-    background-color: white;
 }
-
 
 .card-title:hover {
     font-size: x-large;
@@ -38,5 +28,11 @@ body {
     color: black;
 }
 
-
+.fixed-bottom {
+  background-color: white;
+  height: 50px;
+  color: teal;
+  font-size: xx-large;
+  text-align: center;
+}
 
