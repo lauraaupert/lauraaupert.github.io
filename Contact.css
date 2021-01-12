@@ -2,7 +2,25 @@ body {
     background-color: teal;
     color: teal
 }
-
+.portfolio-row {
+    background-color: white; 
+    margin-bottom: 0px; 
+    padding-bottom: 20px;
+    float: left;
+}
+.portfolio-card-one {
+    margin: 20px;
+    width: 70%;
+    justify-self: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.card-title {
+    margin-top: -15px;
+}
+.portfolio-links {
+    padding-top: 10px;
+}
 #form {
     
     margin: 30px;
@@ -17,13 +35,15 @@ body {
     margin-bottom: 20px;
    
 }
-
+.card-body {
+    text-align: center;
+    background-color: white;
+}
 .header {
     font-weight: bold;
 }
 
-.card-title:hover {
-    font-size: x-large;
+.card-link:hover {
     background-color: white;
     color: black;
 }
